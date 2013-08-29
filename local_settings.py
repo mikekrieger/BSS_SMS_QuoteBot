@@ -5,10 +5,10 @@ Includes keys for Twilio, etc.  Second stanza intended for Heroku deployment.
 '''
 
 # Uncommet to configure in file.
-ACCOUNT_SID = "AC802d88dd13f2e3f8d8bc3f9b95eb9f06" 
-AUTH_TOKEN = "a610e5b81d025523706a2bbc381bf5ac"
-BSSSPAM_APP_SID = "AP69a2d4c9cdceee480dfa9e9230c586c5"
-BSS_SPAM_ID = "+17032913341"
+ACCOUNT_SID = "AC4e4ae505f911752bc0a334a1d9bb9c52"
+AUTH_TOKEN = "069d7b07d22be81b0a216e5e5f1f7b33"
+BSSSPAM_APP_SID = "AP4d53354dcb4588a65f39b6355435e5c1"
+BSS_SPAM_ID = "+19787352571"
 
 
 # Begin Heroku configuration - configured through environment variables.
@@ -17,3 +17,5 @@ ACCOUNT_SID = os.environ['ACCOUNT_SID']
 AUTH_TOKEN = os.environ['AUTH_TOKEN']
 BSSSPAM_APP_SID = os.environ['BSSSPAM_APP_SID']
 BSS_SPAM_ID = os.environ['BSS_SPAM_ID']
+
+
